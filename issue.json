@@ -1,0 +1,501 @@
+[
+  {
+    "name": "shell-quote",
+    "version": "1.10.0",
+    "path": "/home/smithamalarvizhir/projects/ai-scribe-eval-app/node_modules/.pnpm/shell-quote@1.10.0/node_modules/shell-quote",
+    "dependents": [
+      {
+        "name": "launch-editor",
+        "version": "2.14.1",
+        "dependents": [
+          {
+            "name": "webpack-dev-server",
+            "version": "5.2.6",
+            "peersSuffixHash": "7779",
+            "dependents": [
+              {
+                "name": "@emisgroup/ai-scribe-eval-app",
+                "version": "0.0.1",
+                "depField": "devDependencies"
+              },
+              {
+                "name": "@webpack-cli/serve",
+                "version": "3.0.1",
+                "peersSuffixHash": "b1a7",
+                "dependents": [
+                  {
+                    "name": "webpack-cli",
+                    "version": "6.0.1",
+                    "peersSuffixHash": "6aec",
+                    "dependents": [
+                      {
+                        "name": "@emisgroup/ai-scribe-eval-app",
+                        "version": "0.0.1",
+                        "depField": "devDependencies"
+                      },
+                      {
+                        "name": "@webpack-cli/configtest",
+                        "version": "3.0.1",
+                        "peersSuffixHash": "b867",
+                        "dependents": [
+                          {
+                            "name": "webpack-cli",
+                            "version": "6.0.1",
+                            "circular": true
+                          }
+                        ]
+                      },
+                      {
+                        "name": "@webpack-cli/info",
+                        "version": "3.0.1",
+                        "peersSuffixHash": "b867",
+                        "dependents": [
+                          {
+                            "name": "webpack-cli",
+                            "version": "6.0.1",
+                            "circular": true
+                          }
+                        ]
+                      },
+                      {
+                        "name": "@webpack-cli/serve",
+                        "version": "3.0.1",
+                        "circular": true
+                      },
+                      {
+                        "name": "webpack",
+                        "version": "5.109.2",
+                        "peersSuffixHash": "a0e1",
+                        "dependents": [
+                          {
+                            "name": "@emisgroup/ai-scribe-eval-app",
+                            "version": "0.0.1",
+                            "depField": "devDependencies"
+                          },
+                          {
+                            "name": "@emisgroup/webpack-acp-validator-plugin",
+                            "version": "4.3.3",
+                            "peersSuffixHash": "8d92",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/webpack-config-acp-app",
+                                "version": "4.3.50",
+                                "peersSuffixHash": "d19a",
+                                "dependents": [
+                                  {
+                                    "name": "@emisgroup/ai-scribe-eval-app",
+                                    "version": "0.0.1",
+                                    "depField": "devDependencies"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "@webpack-cli/configtest",
+                            "version": "3.0.1",
+                            "peersSuffixHash": "b867",
+                            "deduped": true
+                          },
+                          {
+                            "name": "@webpack-cli/info",
+                            "version": "3.0.1",
+                            "peersSuffixHash": "b867",
+                            "deduped": true
+                          },
+                          {
+                            "name": "@webpack-cli/serve",
+                            "version": "3.0.1",
+                            "circular": true
+                          },
+                          {
+                            "name": "babel-loader",
+                            "version": "8.4.1",
+                            "peersSuffixHash": "838d",
+                            "dependents": [
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "7.0.5",
+                                "peersSuffixHash": "838d",
+                                "dependents": [
+                                  {
+                                    "name": "webpack-config-single-spa-react",
+                                    "version": "7.0.5",
+                                    "peersSuffixHash": "838d",
+                                    "dependents": [
+                                      {
+                                        "name": "webpack-config-single-spa-react-ts",
+                                        "version": "6.0.5",
+                                        "peersSuffixHash": "0a17",
+                                        "dependents": [
+                                          {
+                                            "name": "@emisgroup/ai-scribe-eval-app",
+                                            "version": "0.0.1",
+                                            "depField": "devDependencies"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "webpack-config-single-spa-ts",
+                                    "version": "6.0.5",
+                                    "peersSuffixHash": "0a17",
+                                    "dependents": [
+                                      {
+                                        "name": "webpack-config-single-spa-react-ts",
+                                        "version": "6.0.5",
+                                        "peersSuffixHash": "0a17",
+                                        "deduped": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "8.0.0",
+                                "peersSuffixHash": "838d",
+                                "dependents": [
+                                  {
+                                    "name": "webpack-config-single-spa-react",
+                                    "version": "8.0.0",
+                                    "peersSuffixHash": "838d",
+                                    "dependents": [
+                                      {
+                                        "name": "webpack-config-single-spa-react-ts",
+                                        "version": "8.0.0",
+                                        "peersSuffixHash": "0a17",
+                                        "dependents": [
+                                          {
+                                            "name": "@emisgroup/webpack-config-acp-app",
+                                            "version": "4.3.50",
+                                            "peersSuffixHash": "d19a",
+                                            "deduped": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "webpack-config-single-spa-ts",
+                                    "version": "8.0.0",
+                                    "peersSuffixHash": "0a17",
+                                    "dependents": [
+                                      {
+                                        "name": "webpack-config-single-spa-react-ts",
+                                        "version": "8.0.0",
+                                        "peersSuffixHash": "0a17",
+                                        "deduped": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "copy-webpack-plugin",
+                            "version": "12.0.2",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              },
+                              {
+                                "name": "@emisgroup/webpack-config-acp-app",
+                                "version": "4.3.50",
+                                "peersSuffixHash": "d19a",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "csp-html-webpack-plugin",
+                            "version": "5.1.0",
+                            "peersSuffixHash": "9043",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              },
+                              {
+                                "name": "@emisgroup/webpack-config-acp-app",
+                                "version": "4.3.50",
+                                "peersSuffixHash": "d19a",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "css-loader",
+                            "version": "6.11.0",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "7.0.5",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              },
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "8.0.0",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "css-loader",
+                            "version": "7.1.4",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "dotenv-webpack",
+                            "version": "8.1.0",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "dotenv-webpack",
+                            "version": "8.1.1",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/webpack-config-acp-app",
+                                "version": "4.3.50",
+                                "peersSuffixHash": "d19a",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "fork-ts-checker-webpack-plugin",
+                            "version": "8.0.0",
+                            "peersSuffixHash": "e3a3",
+                            "dependents": [
+                              {
+                                "name": "webpack-config-single-spa-ts",
+                                "version": "6.0.5",
+                                "peersSuffixHash": "0a17",
+                                "deduped": true
+                              },
+                              {
+                                "name": "webpack-config-single-spa-ts",
+                                "version": "8.0.0",
+                                "peersSuffixHash": "0a17",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "html-webpack-plugin",
+                            "version": "5.6.8",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              },
+                              {
+                                "name": "@emisgroup/webpack-config-acp-app",
+                                "version": "4.3.50",
+                                "peersSuffixHash": "d19a",
+                                "deduped": true
+                              },
+                              {
+                                "name": "csp-html-webpack-plugin",
+                                "version": "5.1.0",
+                                "peersSuffixHash": "9043",
+                                "deduped": true
+                              },
+                              {
+                                "name": "standalone-single-spa-webpack-plugin",
+                                "version": "4.0.0",
+                                "peersSuffixHash": "9043",
+                                "dependents": [
+                                  {
+                                    "name": "webpack-config-single-spa",
+                                    "version": "7.0.5",
+                                    "peersSuffixHash": "838d",
+                                    "deduped": true
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "standalone-single-spa-webpack-plugin",
+                                "version": "6.0.0",
+                                "peersSuffixHash": "9043",
+                                "dependents": [
+                                  {
+                                    "name": "webpack-config-single-spa",
+                                    "version": "8.0.0",
+                                    "peersSuffixHash": "838d",
+                                    "deduped": true
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "7.0.5",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              },
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "8.0.0",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "minimizer-webpack-plugin",
+                            "version": "5.6.1",
+                            "peersSuffixHash": "ee38",
+                            "dependents": [
+                              {
+                                "name": "webpack",
+                                "version": "5.109.2",
+                                "circular": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "sass-loader",
+                            "version": "16.0.8",
+                            "peersSuffixHash": "7281",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "standalone-single-spa-webpack-plugin",
+                            "version": "4.0.0",
+                            "peersSuffixHash": "9043",
+                            "deduped": true
+                          },
+                          {
+                            "name": "standalone-single-spa-webpack-plugin",
+                            "version": "6.0.0",
+                            "peersSuffixHash": "9043",
+                            "deduped": true
+                          },
+                          {
+                            "name": "style-loader",
+                            "version": "3.3.4",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "7.0.5",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              },
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "8.0.0",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "style-loader",
+                            "version": "4.0.0",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "@emisgroup/ai-scribe-eval-app",
+                                "version": "0.0.1",
+                                "depField": "devDependencies"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "systemjs-webpack-interop",
+                            "version": "2.3.7",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "7.0.5",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              },
+                              {
+                                "name": "webpack-config-single-spa",
+                                "version": "8.0.0",
+                                "peersSuffixHash": "838d",
+                                "deduped": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "webpack-cli",
+                            "version": "6.0.1",
+                            "circular": true
+                          },
+                          {
+                            "name": "webpack-dev-middleware",
+                            "version": "7.4.5",
+                            "peersSuffixHash": "1506",
+                            "dependents": [
+                              {
+                                "name": "webpack-dev-server",
+                                "version": "5.2.6",
+                                "circular": true
+                              }
+                            ]
+                          },
+                          {
+                            "name": "webpack-dev-server",
+                            "version": "5.2.6",
+                            "circular": true
+                          }
+                        ]
+                      },
+                      {
+                        "name": "webpack-dev-server",
+                        "version": "5.2.6",
+                        "circular": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "webpack-cli",
+                "version": "6.0.1",
+                "peersSuffixHash": "6aec",
+                "deduped": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
